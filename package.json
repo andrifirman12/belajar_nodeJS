@@ -1,0 +1,22 @@
+{
+  "name": "restapi_mysql",
+  "version": "1.0.0",
+  "description": "nodeJS, rest api, mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrifirman12/belajar_nodeJS.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "afirn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrifirman12/belajar_nodeJS/issues"
+  },
+  "homepage": "https://github.com/andrifirman12/belajar_nodeJS#readme"
+}
