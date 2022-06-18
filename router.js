@@ -1,8 +1,11 @@
 "use strict";
 
 module.exports = function (app) {
-  var jsonku = require("./controller");
+  var controller = require("./controller");
 
-  app.route("/").get(jsonku.index);
-  app.route("/getAllUser").get(jsonku.getAllUser);
+  app.route("/").get(controller.index);
+  app.route("/getAllUser").get(controller.getAllUser);
+  app.route("/getUserById/:id").get(controller.getUserById);
+  app.route("/addUser").post(controller.addUser);
+  app.route("/editUser").put(controller.editUser);
 };
